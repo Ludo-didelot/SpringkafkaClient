@@ -21,7 +21,7 @@ public class PersistenceContext {
     @Bean(name = "configu")
     public org.neo4j.ogm.config.Configuration getConfiguration() {
         return new org.neo4j.ogm.config.Configuration.Builder()
-                .uri("bolt://neo4j:starwarsgraph@localhost:7687")
+                .uri("bolt://neo4j:starwarsgraph@localhost:11002")
                 .connectionPoolSize(150)
                 .build();
     }

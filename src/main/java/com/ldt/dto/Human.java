@@ -21,4 +21,8 @@ public class Human {
     private int age;
     private String gender;
     private String[] feature;
+    @Override
+    public String toString(){
+        return "Human "+id +" with name : " +name;
+    }
 }
